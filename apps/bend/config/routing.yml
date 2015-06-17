@@ -1,0 +1,74 @@
+add_info:
+  class: sfPropelRouteCollection
+  options:
+    model:                AddInfo
+    module:               add_info
+    prefix_path:          /sitecontrol/add_info
+    column:               id
+    with_wildcard_routes: true
+
+video:
+  class: sfPropelRouteCollection
+  options:
+    model:                Video
+    module:               video
+    prefix_path:          /sitecontrol/video
+    column:               id
+    with_wildcard_routes: true
+
+news:
+  class: sfPropelRouteCollection
+  options:
+    model:                News
+    module:               news
+    prefix_path:          /sitecontrol/news
+    column:               id
+    with_wildcard_routes: true
+
+album:
+  class: sfPropelRouteCollection
+  options:
+    model:                Album
+    module:               album
+    prefix_path:          /sitecontrol/album
+    column:               id
+    with_wildcard_routes: true
+
+question:
+  class: sfPropelRouteCollection
+  options:
+    model:                Question
+    module:               question
+    prefix_path:          /sitecontrol/question
+    column:               id
+    with_wildcard_routes: true
+
+anketa:
+  class: sfPropelRouteCollection
+  options:
+    model:                Anketa
+    module:               anketa
+    prefix_path:          /sitecontrol/anketa
+    column:               id
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /sitecontrol/
+  param: { module: default, action: index }
+  
+logout:
+  url:   /sitecontrol/logout
+  param: { module: default, action: logout }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /sitecontrol/:module
+  param: { action: index }
+
+default:
+  url:   /sitecontrol/:module/:action/*

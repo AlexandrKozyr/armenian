@@ -1,0 +1,45 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           News
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              News
+    plural:                Newss
+    route_prefix:          news
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        id: {label: '№'}
+        title: {label: 'Заголовок'}
+        content: {label: 'Содержание'}
+        image: {label: 'Обложка'}
+        meta_description: {label: 'Мета описание'}
+        meta_keywords: {label: 'Ключевые слова'}
+        created_at: {label: 'Дата создания'}
+        updated_at: {label: 'Дата редактирования'}
+                
+      list:  
+        title: Список Новостей
+        layout:  tabular
+        display: [title, created_at, updated_at]
+        max_per_page: 10
+        batch_actions: {}
+        object_actions:
+              _edit: {label: 'Просмотреть'}
+              _delete: {label: 'Удалить'}
+      filter: 
+        class: false
+      form: ~   
+      edit:    
+        title: Редактирование новости "%%Title%%"
+      new:     
+        title: Создание новости
+        actions:
+            _list: ~
+            _save: ~
+            

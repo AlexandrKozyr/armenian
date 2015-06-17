@@ -1,0 +1,46 @@
+Apr 19 10:29:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 19 10:29:14 symfony [warning] {sfWebDebugLogger}  Warning at E:\loc_site\armenian.loc\sources\lib\storage\sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp\sess_peidfcm7kupj8afqugtcub18s1, O_RDWR) failed: No such file or directory (2))
+Apr 19 10:29:14 symfony [warning] {sfWebDebugLogger}  Warning at E:\loc_site\armenian.loc\sources\lib\storage\sfSessionStorage.class.php on line 93 (session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at E:\loc_site\armenian.loc\sources\lib\storage\sfSessionStorage.class.php:93))
+Apr 19 10:29:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 19 10:29:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 19 10:29:14 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 19 10:29:14 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib/controller/default/templates/indexSuccess.php"
+Apr 19 10:29:14 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\lib\controller\default\templates/defaultLayout.php"
+Apr 19 10:29:14 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib\controller\default\templates/defaultLayout.php"
+Apr 19 10:29:14 symfony [warning] {sfWebDebugLogger}  Warning at E:\loc_site\armenian.loc\sources\lib\response\sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at E:\loc_site\armenian.loc\sources\lib\storage\sfSessionStorage.class.php:93))
+Apr 19 10:29:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 19 10:29:14 symfony [warning] {sfWebDebugLogger}  Warning at E:\loc_site\armenian.loc\sources\lib\response\sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at E:\loc_site\armenian.loc\sources\lib\storage\sfSessionStorage.class.php:93))
+Apr 19 10:29:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 19 10:29:14 symfony [info] {sfWebDebugLogger} Configuration 4238.85 ms (9)
+Apr 19 10:29:14 symfony [info] {sfWebDebugLogger} Factories 187.87 ms (1)
+Apr 19 10:29:14 symfony [info] {sfWebDebugLogger} Action "default/index" 0.21 ms (1)
+Apr 19 10:29:14 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 36.30 ms (1)
+Apr 19 10:29:14 symfony [info] {sfWebResponse} Send content (29806 o)
+Apr 21 15:08:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 21 15:08:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 21 15:08:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 21 15:08:23 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 21 15:08:23 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+Apr 21 15:08:23 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Apr 21 15:08:23 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+Apr 21 15:08:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 21 15:08:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 21 15:08:23 symfony [info] {sfWebDebugLogger} Configuration 847.19 ms (9)
+Apr 21 15:08:23 symfony [info] {sfWebDebugLogger} Factories 696.91 ms (1)
+Apr 21 15:08:23 symfony [info] {sfWebDebugLogger} Action "default/index" 0.79 ms (1)
+Apr 21 15:08:23 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 113.81 ms (1)
+Apr 21 15:08:24 symfony [info] {sfWebResponse} Send content (29689 o)
+May 01 10:26:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+May 01 10:26:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 01 10:26:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 01 10:26:54 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+May 01 10:26:54 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib/controller/default/templates/indexSuccess.php"
+May 01 10:26:54 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 01 10:26:54 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib\controller\default\templates/defaultLayout.php"
+May 01 10:26:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 01 10:26:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 01 10:26:54 symfony [info] {sfWebDebugLogger} Configuration 132.55 ms (9)
+May 01 10:26:54 symfony [info] {sfWebDebugLogger} Factories 1193.94 ms (1)
+May 01 10:26:54 symfony [info] {sfWebDebugLogger} Action "default/index" 0.60 ms (1)
+May 01 10:26:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 189.51 ms (1)
+May 01 10:26:54 symfony [info] {sfWebResponse} Send content (29690 o)

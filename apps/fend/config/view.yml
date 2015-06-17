@@ -1,0 +1,27 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Союз армян Украины - Кировоград
+    description:  Официальный сайт Союза армян Украины в г. Кировоград
+    keywords:     Союз, армяне, Кировоград, община, землячество, сау, союз армян украины, армяне украины, спілка вірмен україни, вірмени україни
+    #language:     en,ru,ua
+    #robots:       index, follow
+
+  stylesheets:    [all.css]
+
+
+  javascripts:
+  
+   - jquery-1.9.0.min.js
+   - inputs.js
+   - jquery.bpopup.min.js
+   - jquery.main.js
+  
+
+  has_layout:     true
+  layout:         layout

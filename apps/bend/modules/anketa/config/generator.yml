@@ -1,0 +1,48 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Anketa
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Anketa
+    plural:                Anketas
+    route_prefix:          anketa
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        FIO: {label: 'Ф.И.О.'}
+        phone: {label: 'Номер телефона'}
+        message: {label: 'Сообщение'}
+        actions: {label: 'Действия'}
+        birthday: {label: 'Дата рождения'}
+        sex: {label: 'Пол'}
+        family: {label: 'Семейное положение'}
+        adress: {label: 'Адрес'}
+        edu: {label: 'Образование'}
+        work: {label: 'Работа'}
+        foto: {label: 'Фото'}
+        created_at: {label: 'Дата подачи'}
+        
+      list:
+          title: Поступившие анкеты
+          layout:  tabular
+          display: [FIO, phone, email, created_at]
+          max_per_page: 10
+          batch_actions: {}
+          object_actions:
+              _edit: {label: 'Просмотреть'}
+              _delete: {label: 'Удалить'}
+      filter:  
+           class: false
+      form:    ~
+      edit:
+          title: Просмотр Анкеты "%%FIO%%"
+      new:
+          title: Новая анкета
+          actions:
+            _list: ~
+            _save: ~

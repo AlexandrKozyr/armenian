@@ -1,0 +1,91 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  add_info:
+    _attributes: { phpName: AddInfo }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    title: { phpName: Title, type: VARCHAR, size: '255', required: true, index: unique }
+    content: { phpName: Content, type: CLOB, required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+    meta_description: { phpName: MetaDescription, type: LONGVARCHAR, required: false }
+    meta_keywords: { phpName: MetaKeywords, type: LONGVARCHAR, required: false }
+  album:
+    _attributes: { phpName: Album }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    title: { phpName: Title, type: VARCHAR, size: '255', required: true, index: unique }
+    description: { phpName: Description, type: LONGVARCHAR, required: true }
+    cover_image: { phpName: CoverImage, type: INTEGER, size: '10', required: false, foreignTable: image, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+    meta_description: { phpName: MetaDescription, type: LONGVARCHAR, required: false }
+    meta_keywords: { phpName: MetaKeywords, type: LONGVARCHAR, required: false }
+    _indexes: { fk_album_image1_idx: [cover_image] }
+  album_has_image:
+    _attributes: { phpName: AlbumHasImage }
+    album_id: { phpName: AlbumId, type: INTEGER, size: '10', primaryKey: true, required: true, foreignTable: album, foreignReference: id, onDelete: RESTRICT, onUpdate: RESTRICT }
+    image_id: { phpName: ImageId, type: INTEGER, size: '10', primaryKey: true, required: true, foreignTable: image, foreignReference: id, onDelete: RESTRICT, onUpdate: RESTRICT }
+    _indexes: { fk_album_has_image_image1_idx: [image_id] }
+  anketa:
+    _attributes: { phpName: Anketa }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    FIO: { phpName: Fio, type: VARCHAR, size: '45', required: true, index: unique }
+    email: { phpName: Email, type: VARCHAR, size: '45', required: true, index: unique }
+    phone: { phpName: Phone, type: VARCHAR, size: '45', required: true }
+    message: { phpName: Message, type: LONGVARCHAR, required: true }
+    birthday: { phpName: Birthday, type: DATE, required: true }
+    sex: { phpName: Sex, type: VARCHAR, size: '45', required: true }
+    family: { phpName: Family, type: VARCHAR, size: '45', required: true }
+    image_id: { phpName: ImageId, type: INTEGER, size: '10', required: false, foreignTable: image, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    adress: { phpName: Adress, type: LONGVARCHAR, required: true }
+    edu: { phpName: Edu, type: VARCHAR, size: '45', required: true }
+    work: { phpName: Work, type: LONGVARCHAR, required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+    _indexes: { image_id: [image_id] }
+  image:
+    _attributes: { phpName: Image }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    hash: { phpName: Hash, type: VARCHAR, size: '255', required: false, index: unique }
+    title: { phpName: Title, type: VARCHAR, size: '255', required: false }
+    content: { phpName: Content, type: CLOB, required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+  news:
+    _attributes: { phpName: News }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    image_id: { phpName: ImageId, type: INTEGER, size: '10', required: false, foreignTable: image, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }
+    title: { phpName: Title, type: VARCHAR, size: '255', required: true, index: unique }
+    content: { phpName: Content, type: CLOB, required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+    meta_description: { phpName: MetaDescription, type: LONGVARCHAR, required: false }
+    meta_keywords: { phpName: MetaKeywords, type: LONGVARCHAR, required: false }
+    _indexes: { fk_news_image1_idx: [image_id] }
+  question:
+    _attributes: { phpName: Question }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    FIO: { phpName: Fio, type: VARCHAR, size: '255', required: true, index: unique }
+    email: { phpName: Email, type: VARCHAR, size: '255', required: true, index: unique }
+    phone: { phpName: Phone, type: VARCHAR, size: '255', required: true }
+    message: { phpName: Message, type: LONGVARCHAR, required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: true }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+  user:
+    _attributes: { phpName: User }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    login: { phpName: Login, type: VARCHAR, size: '45', required: true, index: unique }
+    password: { phpName: Password, type: VARCHAR, size: '45', required: true }
+    create_at: { phpName: CreateAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+  video:
+    _attributes: { phpName: Video }
+    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
+    title: { phpName: Title, type: VARCHAR, size: '255', required: true, index: unique }
+    content: { phpName: Content, type: VARCHAR, size: '255', required: true }
+    description: { phpName: Description, type: VARCHAR, size: '255', required: true }
+    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: false }
+    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
+    meta_description: { phpName: MetaDescription, type: LONGVARCHAR, required: false }
+    meta_keywords: { phpName: MetaKeywords, type: LONGVARCHAR, required: false }

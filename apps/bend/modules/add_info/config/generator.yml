@@ -1,0 +1,46 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           AddInfo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              AddInfo
+    plural:                AddInfos
+    route_prefix:          add_info
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        id: {label: '№'}
+        title: {label: 'Раздел (Заголовок)'}
+        content: {label: 'Содержание'}
+        image: {label: 'Обложка'}
+        meta_description: {label: 'Мета описание'}
+        meta_keywords: {label: 'Ключевые слова'}
+        created_at: {label: 'Дата создания'}
+        updated_at: {label: 'Дата редактирования'}
+      list:    
+        title: Дополнительная информация
+        layout:  tabular
+        display: [id, title]
+          
+        batch_actions: {}
+        object_actions:
+              _edit: {label: 'Редактировать'}
+             
+      filter:
+           class: false
+      form:    ~
+      edit:    
+        title: Редактирование "%%Title%%"
+        actions:
+            _list: ~
+            _save: ~
+      new:     
+        title: Создание дополнительной информации
+        actions:
+            _list: ~
+            _save: ~

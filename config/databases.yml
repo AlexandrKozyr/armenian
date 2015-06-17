@@ -1,0 +1,9 @@
+all:
+  propel:
+    class: sfPropelDatabase
+    param:
+      dsn:        mysql:dbname=armenian;host=localhost
+      username:   root
+      password:   
+      encoding: utf8
+

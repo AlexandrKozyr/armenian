@@ -1,0 +1,41 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Question
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Question
+    plural:                Questions
+    route_prefix:          question
+    with_propel_route:     1
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        FIO: {label: 'Ф.И.О.'}
+        phone: {label: 'Номер телефона'}
+        message: {label: 'Сообщение'}
+        actions: {label: 'Действия'}
+        created_at: {label: 'Дата подачи'}
+        
+      list:
+          title: Поступившие обращения
+          layout:  tabular
+          display: [FIO, phone, email, message, created_at]
+          max_per_page: 10
+          batch_actions: {}
+          object_actions:
+              _edit: {label: 'Просмотреть'}
+              _delete: {label: 'Удалить'}
+      filter:  
+           class: false
+      form:    ~
+      edit:
+          title: Просмотр Обращения "%%FIO%%"
+      new:
+          title: Новая анкета
+          actions:
+            _list: ~
+            _save: ~
