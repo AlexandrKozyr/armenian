@@ -50,7 +50,8 @@ abstract class BaseAnketaForm extends BaseFormPropel
     $this->validatorSchema->setPostValidator(
       new sfValidatorAnd(array(
         new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('id'))),
-       
+        new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('FIO'))),
+        new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('email'))),
       ))
     );
 

@@ -34,14 +34,7 @@ album:
     column:               id
     with_wildcard_routes: true
 
-question:
-  class: sfPropelRouteCollection
-  options:
-    model:                Question
-    module:               question
-    prefix_path:          /sitecontrol/question
-    column:               id
-    with_wildcard_routes: true
+
 
 anketa:
   class: sfPropelRouteCollection

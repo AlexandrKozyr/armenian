@@ -63,15 +63,6 @@ propel:
     meta_description: { phpName: MetaDescription, type: LONGVARCHAR, required: false }
     meta_keywords: { phpName: MetaKeywords, type: LONGVARCHAR, required: false }
     _indexes: { fk_news_image1_idx: [image_id] }
-  question:
-    _attributes: { phpName: Question }
-    id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }
-    FIO: { phpName: Fio, type: VARCHAR, size: '255', required: true, index: unique }
-    email: { phpName: Email, type: VARCHAR, size: '255', required: true, index: unique }
-    phone: { phpName: Phone, type: VARCHAR, size: '255', required: true }
-    message: { phpName: Message, type: LONGVARCHAR, required: true }
-    created_at: { phpName: CreatedAt, type: TIMESTAMP, required: true }
-    updated_at: { phpName: UpdatedAt, type: TIMESTAMP, required: false }
   user:
     _attributes: { phpName: User }
     id: { phpName: Id, type: INTEGER, size: '10', primaryKey: true, autoIncrement: true, required: true, index: unique }

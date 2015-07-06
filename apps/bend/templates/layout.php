@@ -21,16 +21,9 @@
                             <li><a href="<?php echo url_for('album/index') ?>">Фотоальбомы</a></li>
                             <li><a href="<?php echo url_for('video/index') ?>">Видео</a></li>
                             <li><a href="<?php echo url_for('add_info/index') ?>">Дополнительная информация</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Обращения<span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="<?php echo url_for('anketa/index') ?>">Заявки на вступления в САУ</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="<?php echo url_for('question/index') ?>">Другие обращения</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="<?php echo url_for('anketa/index') ?>">Заявки на вступления в САУ</a></li>
                         </ul>
-                        
+
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="<?php echo url_for('@homepage') ?>">На главную</a></li>
                             <li><a href="<?php echo url_for('@logout') ?>">Выйти</a></li>
