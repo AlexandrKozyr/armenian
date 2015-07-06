@@ -28,11 +28,20 @@ class defaultActions extends sfActions {
         
         //geting images for slider
         $this->listOfImages = AlbumPeer::getMainPageImages();
+        
+        $criteriaVideo = new Criteria;
+        $criteriaVideo->addDescendingOrderByColumn(VideoPeer::CREATED_AT);
+        $this->Video = VideoPeer::doSelect($criteriaVideo);
     }
 
     public function executeAbout(sfWebRequest $request) {
 
         $this->aboutUs = AddInfoPeer::retrieveByPK('1');
+    }
+    
+    public function executeError404() {
+
+       
     }
 
 }

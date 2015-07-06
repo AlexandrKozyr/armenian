@@ -34,7 +34,7 @@ propel:
     email: { phpName: Email, type: VARCHAR, size: '45', required: true, index: unique }
     phone: { phpName: Phone, type: VARCHAR, size: '45', required: true }
     message: { phpName: Message, type: LONGVARCHAR, required: true }
-    birthday: { phpName: Birthday, type: DATE, required: true }
+    birthday: { phpName: Birthday, type: VARCHAR, size: '45', required: true }
     sex: { phpName: Sex, type: VARCHAR, size: '45', required: true }
     family: { phpName: Family, type: VARCHAR, size: '45', required: true }
     image_id: { phpName: ImageId, type: INTEGER, size: '10', required: false, foreignTable: image, foreignReference: id, onDelete: RESTRICT, onUpdate: CASCADE }

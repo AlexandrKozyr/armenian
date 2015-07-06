@@ -8,7 +8,7 @@ class myValidatorImage extends sfValidatorBase {
             'image/png',
             'image/bmp',
         ));
-        $this->addMessage('mime_types', 'Вы загружаете не поддерживаемый формат изображения!
+        $this->addMessage('mime_types', 'Вы загружаете не допустимый формат файла!
                 Поддерживаемые форматы  - .jpeg, .png, .bmp');
 
         $this->addOption('picture_size', array(
@@ -20,11 +20,13 @@ class myValidatorImage extends sfValidatorBase {
 
     protected function doClean($value) {
 //     if we got an image at our form we will use our validators
+        
         if ($value['size'] > 0) {
             $this->validatePictureSize($value['size']);
             $this->validatePictureMimeType($value['type']);
         }
         return $validatedValue = $value;
+        
     }
 
 //this function check did our image got our secure mime_types from declared option
@@ -41,7 +43,7 @@ class myValidatorImage extends sfValidatorBase {
     protected function validatePictureSize($currentPictureSize) {
 
         $p_size = $this->getOption('picture_size');
-        if ($p_size[0] < $currentPictureSize) {
+        if ($p_size[0] < $currentPictureSize ) {
             throw new sfValidatorError($this, $this->getMessage('picture_size'));
         }
     }

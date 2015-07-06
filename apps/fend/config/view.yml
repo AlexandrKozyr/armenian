@@ -18,9 +18,9 @@ default:
   javascripts:
   
    - jquery-1.9.0.min.js
+   - jquery.main.js
    - inputs.js
    - jquery.bpopup.min.js
-   - jquery.main.js
   
 
   has_layout:     true

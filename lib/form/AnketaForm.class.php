@@ -13,15 +13,18 @@ class AnketaForm extends BaseAnketaForm {
         unset($this['created_at']);
         unset($this['updated_at']);
         unset($this['image_id']);
-        $this->widgetSchema['image'] = new sfWidgetFormInputFileEditable(array(
-            'edit_mode' => false == $this->isNew,
-            'is_image' => true,
-            'delete_label'=>'Удалить изображние',
-            'file_src' => $this->getImagePath(),
-            'with_delete' => $this->getWithDelete(),
+        $this->widgetSchema['image']           = new sfWidgetFormInputFileEditable(array(
+            'edit_mode'    => false == $this->isNew,
+            'is_image'     => true,
+            'delete_label' => 'Удалить изображние',
+            'file_src'     => $this->getImagePath(),
+            'with_delete'  => $this->getWithDelete(),
         ));
-        $this->validatorSchema['image'] = new myValidatorImage(array('required' => true));
+        $this->validatorSchema['image']        = new myValidatorImage(array('required' => true));
         $this->validatorSchema['image_delete'] = new sfValidatorPass(array('required' => false));
+        $this->validatorSchema['email']        = new sfValidatorEmail(array(
+            'required' => true));
+      
     }
 
     protected function getWithDelete() {
@@ -47,9 +50,8 @@ class AnketaForm extends BaseAnketaForm {
     public function updateDefaultsFromObject() {
         parent::updateDefaultsFromObject();
     }
-
+   
     public function processValues($values) {
-
         if ($values['image_delete']) {
             $values['image_id'] = null;
         } elseif ($values['image']['size'] > 0) {

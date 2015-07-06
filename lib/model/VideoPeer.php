@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Skeleton subclass for performing query and update operations on the 'video' table.
  *
@@ -18,4 +17,24 @@
  */
 class VideoPeer extends BaseVideoPeer {
 
-} // VideoPeer
+    /**
+     * using for looking previos and next news at show news page
+     * @return array list of newsid sorted by createdAt field
+     */
+    static function getVideosIdSortedByCreatedAt() {
+        $stm                     = Propel::getConnection()->prepare
+                ('
+                    SELECT 
+                        v.id
+                      FROM
+                        video v 
+                      ORDER BY v.created_at DESC
+                ');
+        $stm->execute();
+        $videoIdSortedByCreatedAt = $stm->fetchAll(PDO::FETCH_COLUMN, 0);
+        return $videoIdSortedByCreatedAt;
+    }
+
+}
+
+// VideoPeer

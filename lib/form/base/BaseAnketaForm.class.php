@@ -19,7 +19,7 @@ abstract class BaseAnketaForm extends BaseFormPropel
       'email'      => new sfWidgetFormInputText(),
       'phone'      => new sfWidgetFormInputText(),
       'message'    => new sfWidgetFormTextarea(),
-      'birthday'   => new sfWidgetFormDate(),
+      'birthday'   => new sfWidgetFormInputText(),
       'sex'        => new sfWidgetFormInputText(),
       'family'     => new sfWidgetFormInputText(),
       'image_id'   => new sfWidgetFormPropelChoice(array('model' => 'Image', 'add_empty' => true)),
@@ -36,7 +36,7 @@ abstract class BaseAnketaForm extends BaseFormPropel
       'email'      => new sfValidatorString(array('max_length' => 45)),
       'phone'      => new sfValidatorString(array('max_length' => 45)),
       'message'    => new sfValidatorString(),
-      'birthday'   => new sfValidatorDate(),
+      'birthday'   => new sfValidatorString(array('max_length' => 45)),
       'sex'        => new sfValidatorString(array('max_length' => 45)),
       'family'     => new sfValidatorString(array('max_length' => 45)),
       'image_id'   => new sfValidatorPropelChoice(array('model' => 'Image', 'column' => 'id', 'required' => false)),
@@ -50,8 +50,7 @@ abstract class BaseAnketaForm extends BaseFormPropel
     $this->validatorSchema->setPostValidator(
       new sfValidatorAnd(array(
         new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('id'))),
-        new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('FIO'))),
-        new sfValidatorPropelUnique(array('model' => 'Anketa', 'column' => array('email'))),
+       
       ))
     );
 

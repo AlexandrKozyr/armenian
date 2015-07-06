@@ -20,11 +20,11 @@ image-resize:
 
 video-show:
   url:   /video/show/:id
-  param: { module: videp, action: show }
+  param: { module: video, action: show }
 
 video-index:
   url:   /video/:page
-  param: { module: videp, action: show }
+  param: { module: video, action: index }
 
 fotoalbum-show:
   url:   /fotoalbum/show/:id

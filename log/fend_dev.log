@@ -7121,3 +7121,66 @@ Jun 17 14:02:24 symfony [info] {sfWebDebugLogger} Factories 347.76 ms (1)
 Jun 17 14:02:24 symfony [info] {sfWebDebugLogger} Action "fotoalbum/index" 42.93 ms (1)
 Jun 17 14:02:24 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/index" 79.80 ms (1)
 Jun 17 14:02:24 symfony [info] {sfWebResponse} Send content (36865 o)
+Jun 26 11:17:15 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'videp',  'action' => 'show',  'page' => '1',)
+Jun 26 11:17:15 symfony [info] {sfFrontWebController} Action "videp/show" does not exist
+Jun 26 11:17:15 symfony [err] {sfError404Exception} Action "videp/show" does not exist.
+Jun 26 11:17:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 26 11:17:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 26 11:17:15 symfony [info] {sfWebDebugLogger} Configuration 589.73 ms (5)
+Jun 26 11:17:15 symfony [info] {sfWebDebugLogger} Factories 278.76 ms (1)
+Jun 26 11:18:17 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'videp',  'action' => 'show',  'page' => '1',)
+Jun 26 11:18:17 symfony [info] {sfFrontWebController} Action "videp/show" does not exist
+Jun 26 11:18:17 symfony [err] {sfError404Exception} Action "videp/show" does not exist.
+Jun 26 11:18:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jun 26 11:18:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 26 11:18:17 symfony [info] {sfWebDebugLogger} Configuration 640.89 ms (5)
+Jun 26 11:18:17 symfony [info] {sfWebDebugLogger} Factories 266.19 ms (1)
+Jun 26 11:19:04 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'video',  'action' => 'index',  'page' => '1',)
+Jun 26 11:19:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 26 11:19:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 26 11:19:04 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+Jun 26 11:19:04 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/video/templates/indexSuccess.php"
+Jun 26 11:19:04 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\video\templates\indexSuccess.php on line 26 (Undefined variable: News)
+Jun 26 11:19:04 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:19:04 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:19:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 26 11:19:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 26 11:19:04 symfony [info] {sfWebDebugLogger} Configuration 237.41 ms (10)
+Jun 26 11:19:04 symfony [info] {sfWebDebugLogger} Factories 247.22 ms (1)
+Jun 26 11:19:04 symfony [info] {sfWebDebugLogger} Action "video/index" 37.49 ms (1)
+Jun 26 11:19:04 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 60.46 ms (1)
+Jun 26 11:19:04 symfony [info] {sfWebResponse} Send content (36275 o)
+Jun 26 11:31:55 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'video',  'action' => 'index',  'page' => '1',)
+Jun 26 11:31:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 26 11:31:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 26 11:31:55 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+Jun 26 11:31:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/video/templates/indexSuccess.php"
+Jun 26 11:31:55 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\video\templates\indexSuccess.php on line 37 (Undefined variable: News)
+Jun 26 11:32:55 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'video',  'action' => 'index',  'page' => '1',)
+Jun 26 11:32:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 26 11:32:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 26 11:32:55 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+Jun 26 11:32:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/video/templates/indexSuccess.php"
+Jun 26 11:32:55 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:32:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:32:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 26 11:32:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 26 11:32:55 symfony [info] {sfWebDebugLogger} Configuration 52.32 ms (9)
+Jun 26 11:32:55 symfony [info] {sfWebDebugLogger} Factories 136.52 ms (1)
+Jun 26 11:32:55 symfony [info] {sfWebDebugLogger} Action "video/index" 37.95 ms (1)
+Jun 26 11:32:55 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 52.39 ms (1)
+Jun 26 11:32:55 symfony [info] {sfWebResponse} Send content (40324 o)
+Jun 26 11:33:21 symfony [info] {sfPatternRouting} Match route "video-index" (/video/:page) for /video/1 with parameters array (  'module' => 'video',  'action' => 'index',  'page' => '1',)
+Jun 26 11:33:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 26 11:33:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 26 11:33:21 symfony [info] {videoActions} Call "videoActions->executeIndex()"
+Jun 26 11:33:21 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/video/templates/indexSuccess.php"
+Jun 26 11:33:21 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:33:21 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jun 26 11:33:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 26 11:33:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} Configuration 19.43 ms (9)
+Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} Factories 58.01 ms (1)
+Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} Action "video/index" 31.01 ms (1)
+Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 33.88 ms (1)
+Jun 26 11:33:21 symfony [info] {sfWebResponse} Send content (40315 o)

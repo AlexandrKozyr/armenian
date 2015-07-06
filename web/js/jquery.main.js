@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#gallery').gallery({
-		duration: 200,
-		autoRotation: false,
+		duration: 600,
+		autoRotation: 2000,
 		clone: true,
 		listOfSlides: '.list > li',
 		switcher: '.switcher>li',

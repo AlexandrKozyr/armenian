@@ -11,7 +11,11 @@
             <a href="<?php echo url_for('@news-show?id=' . $News[$i]->getId()) ?>">
                 <div class="report">
                     <div class="icon"><img src="/img/icon04.png" alt="" width="45" height="45"></div>
-                    <img src="<?php echo url_for('@image-resize?x=460&y=307&hash=' . $News[$i]->getImage()->getHash()) ?>" alt="<?php echo $News[$i]->getTitle() ?>" width="460" height="307">
+                    <?php if (!is_null($News[$i]->getImageId())): ?>
+                        <img src="<?php echo url_for('@image-resize?x=460&y=307&hash=' . $News[$i]->getImage()->getHash()) ?>" alt="<?php echo $News[$i]->getTitle() ?>" width="460" height="307"> 
+                    <?php else: ?>
+                        <img src="/img/NoImage.png" alt="<?php echo $News[$i]->getTitle() ?>" width="460" height="307">
+                    <?php endif ?>
                     <div class="shadow"></div>
                 </div>
                 <div class="item">
@@ -27,7 +31,11 @@
             <a href="<?php echo url_for('@news-show?id=' . $News[$i]->getId()) ?>">
                 <div class="report">
                     <div class="icon"><img src="/img/icon04.png" alt="" width="45" height="45"></div>
-                    <img src="<?php echo url_for('@image-resize?x=300&y=200&hash=' . $News[$i]->getImage()->getHash()) ?>" alt="<?php echo $News[$i]->getTitle() ?>" width="300" height="200">
+                    <?php if (!is_null($News[$i]->getImageId())): ?>
+                        <img src="<?php echo url_for('@image-resize?x=300&y=200&hash=' . $News[$i]->getImage()->getHash()) ?>" alt="<?php echo $News[$i]->getTitle() ?>" width="300" height="200"> 
+                    <?php else: ?>
+                        <img src="/img/NoImage.png" alt="<?php echo $News[$i]->getTitle() ?>" width="300" height="200">
+                    <?php endif ?>
                     <div class="shadow"></div>
                 </div>
                 <div class="item">

@@ -8,7 +8,7 @@ class myValidatorAlbumImage extends sfValidatorBase {
             'image/png',
             'image/bmp',
         ));
-        $this->addMessage('mime_types', 'Вы загружаете не поддерживаемый формат изображения!
+        $this->addMessage('mime_types', 'Вы загружаете не допустимый формат файла!
                 Поддерживаемые форматы  - .jpeg, .png, .bmp');
 
         $this->addOption('picture_size', array(
