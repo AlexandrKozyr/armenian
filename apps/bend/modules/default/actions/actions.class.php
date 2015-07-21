@@ -17,6 +17,7 @@ class defaultActions extends sfActions {
      */
     public function executeIndex(sfWebRequest $request) {
         sfConfig::set('sf_web_debug', false);
+		$this->getUser()->setCulture('ru');
     }
 
 
@@ -24,7 +25,7 @@ class defaultActions extends sfActions {
         if ($this->getUser()->isAuthenticated()) {
             $this->redirect('default/index');
         }
-        
+
         if ($request->isMethod('post')) {
             $login = $request->getParameter('nog');
             $password = $request->getParameter('dro');

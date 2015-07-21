@@ -13,6 +13,7 @@ generator:
 
     config:
       actions: ~
+          
       fields:
         FIO: {label: 'Ф.И.О.'}
         phone: {label: 'Номер телефона'}
@@ -30,6 +31,7 @@ generator:
       list:
           title: Поступившие анкеты
           layout:  tabular
+          actions: {}
           display: [FIO, phone, email, created_at]
           max_per_page: 10
           batch_actions: {}
@@ -41,8 +43,5 @@ generator:
       form:    ~
       edit:
           title: Просмотр Анкеты "%%FIO%%"
-      new:
-          title: Новая анкета
-          actions:
-            _list: ~
-            _save: ~
+      new: ~
+         

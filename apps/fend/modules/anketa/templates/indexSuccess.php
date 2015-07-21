@@ -1,4 +1,8 @@
 <?php use_javascript('https://www.google.com/recaptcha/api.js') ?>
+<?php use_javascript('/js/jquery.maskedinput.min.js') ?>
+<?php use_javascript('/js/inputs.js') ?>
+<?php use_javascript('/js/headMenu/Anketa.js') ?>
+
 <div class="main organization">			
     <h2>Вступление в САУ</h2>
     <div class="requirements">
@@ -6,7 +10,7 @@
         <p>Члены МО имеют равные права и несут равные обязанности</p>
     </div>
     <div class="user_form">
-        <form name="anketa" method="post" action="<?php echo url_for('@anketa') ?>" enctype="multipart/form-data">
+        <form name="anketa" method="post" action="" enctype="multipart/form-data">
             <?php echo $anketa->renderHiddenFields() ?>
             <fieldset>
                 <div class="personality">
@@ -81,7 +85,7 @@
                         </div> 
                     <?php else: ?>
                         <div class="row">
-                            <label for="anketa_image">Ваше фото </br>( размер до 5Mb, .jpeg ) *</label>
+                            <label for="anketa_image">Ваше фото </br>( размер до 2Mb, .jpeg ) *</label>
                             <?php echo $anketa['image']->render(array('class' => 'form-control', 'required' => 'true')) ?>
                         </div>                       
                     <?php endif ?>
@@ -109,12 +113,12 @@
                         </div>
                         <div class="row">
                             <label for="anketa_phone">Контактный телефон *</label>
-                            <?php echo $anketa['phone']->render(array('class' => 'form-control, error', 'required' => 'true')) ?>
+                            <?php echo $anketa['phone']->render(array('class' => 'form-control, error', 'id'=>'anketaphone', 'required' => 'true')) ?>
                         </div> 
                     <?php else: ?>
                         <div class="row">
                             <label for="anketa_phone">Контактный телефон *</label>
-                            <?php echo $anketa['phone']->render(array('class' => 'form-control', 'placeholder'=>'066432233', 'required' => 'true')) ?>
+                            <?php echo $anketa['phone']->render(array('class' => 'form-control','id'=>'anketaphone', 'placeholder'=>'+38(056) 999-99-99', 'required' => 'true')) ?>
                         </div>                       
                     <?php endif ?>
 

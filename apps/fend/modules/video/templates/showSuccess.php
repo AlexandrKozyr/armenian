@@ -1,4 +1,4 @@
-
+<?php use_javascript('/js/headMenu/Gal.js') ?>
 <div class="main topic">
     <div class="one_news">
         <div class="breadcrumbs">

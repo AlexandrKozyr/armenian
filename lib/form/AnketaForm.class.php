@@ -24,7 +24,7 @@ class AnketaForm extends BaseAnketaForm {
         $this->validatorSchema['image_delete'] = new sfValidatorPass(array('required' => false));
         $this->validatorSchema['email']        = new sfValidatorEmail(array(
             'required' => true));
-      
+            
     }
 
     protected function getWithDelete() {

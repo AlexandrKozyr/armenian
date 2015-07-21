@@ -1,3 +1,4 @@
+<?php use_javascript('/js/headMenu/Gal.js') ?>
 <div class="main">
     <h2>Видео</h2>
     <div class="big_news">
@@ -40,7 +41,7 @@
     </div>   
     <?php if ($pager->haveToPaginate()): ?>
         <div class="pagination">
-            <div class="more">Больше новостей</div>
+            <div class="more">Больше видео</div>
             <ul>
                 <li><a class="prev_page" href="<?php echo url_for('@video-index?page=' . $pager->getPreviousPage()) ?>">&lt;</a></li>
                 <?php foreach ($pager->getLinks(5) as $page): ?>

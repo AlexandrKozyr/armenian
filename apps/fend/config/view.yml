@@ -10,7 +10,7 @@ default:
     description:  Официальный сайт Союза армян Украины в г. Кировоград
     keywords:     Союз, армяне, Кировоград, община, землячество, сау, союз армян украины, армяне украины, спілка вірмен україни, вірмени україни
     #language:     en,ru,ua
-    #robots:       index, follow
+    robots:       index, follow
 
   stylesheets:    [all.css]
 
@@ -19,8 +19,7 @@ default:
   
    - jquery-1.9.0.min.js
    - jquery.main.js
-   - inputs.js
-   - jquery.bpopup.min.js
+    
   
 
   has_layout:     true

@@ -24,7 +24,6 @@ class newsActions extends sfActions {
         $pager->setPage($this->getRequestParameter('page', 1));
         $pager->init();
         $this->pager = $pager;
-        
     }
 
     /**
@@ -35,8 +34,12 @@ class newsActions extends sfActions {
         //geting main news
 
         $currentNewsID = $request->getParameter('id');
+
         $this->currentNews = NewsPeer::retrieveByPK($currentNewsID);
-       
+
+        //add metas(custom method)
+        $this->setMetasForCurrentObject($this->currentNews);
+
         if (is_object($this->currentNews)) {
             //obtaining an array of sorted userids
             $listOfNewsIdSorted = NewsPeer::getNewsIdSortedByCreatedAt();
@@ -74,6 +77,28 @@ class newsActions extends sfActions {
         } else {
             $this->forward404();
         }
+    }
+
+    /**
+     * this method acsepts an object and sets dinamic metas for it view
+     * @param object $obj - current object where we need to change meta
+     */
+    protected function setMetasForCurrentObject($obj) {
+        $defaultTitle       = 'САУ Кировоград - ';
+        $defaultDescription = 'Новости Союза армян Украины в Кировоградской области - ';
+        $defaultKeyWords    = 'Союз, армяне, Кировоград, община,
+                 землячество, сау, союз армян украины, армяне украины, 
+                 спілка вірмен україни, вірмени україни, членсво,
+                 членство, вступить, dcnegbnm, fhvzyt, erhfbyf, 
+                 новости, информация, узнать, ';
+
+        $newsTitle       = $obj->getTitle();
+        $newsDescription = $obj->getMetaDescription();
+        $newsKeyWords    = $obj->getMetaKeywords();
+
+        $this->getResponse()->addMeta('title', $defaultTitle . $newsTitle);
+        $this->getResponse()->addMeta('description', $defaultDescription . $newsDescription);
+        $this->getResponse()->addMeta('keywords', $defaultKeyWords . $newsKeyWords);
     }
 
 }

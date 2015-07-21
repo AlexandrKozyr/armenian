@@ -50,6 +50,10 @@ anketa:
   url:   /anketa
   param: { module: anketa, action: index }
 
+anketa-confirm:
+  url:   /anketa/confirm
+  param: { module: anketa, action: confirm }
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

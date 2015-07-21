@@ -30,6 +30,7 @@ generator:
         batch_actions: {}
         object_actions:
               _edit: {label: 'Редактировать'}
+              _delete: {label: 'Удалить'}
              
       filter:
            class: false

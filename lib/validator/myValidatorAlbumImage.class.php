@@ -12,10 +12,10 @@ class myValidatorAlbumImage extends sfValidatorBase {
                 Поддерживаемые форматы  - .jpeg, .png, .bmp');
 
         $this->addOption('picture_size', array(
-            5242880
+             2097152
         ));
         $this->addMessage('picture_size', 'Ваше изображение слишком большого размера!
-                Убедитесь что ваш файл не больше 5 Мб');
+                Убедитесь что ваш файл не больше 2 Мб');
     }
     /**
      * makes our checks(validation)

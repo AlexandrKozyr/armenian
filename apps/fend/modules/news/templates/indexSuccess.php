@@ -1,3 +1,4 @@
+<?php use_javascript('/js/headMenu/News.js') ?>
 <div class="main">
     <h2>Новости</h2>
     <div class="big_news">

@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * Skeleton subclass for performing query and update operations on the 'add_info' table.
  *
@@ -17,5 +16,16 @@
  * @package    lib.model
  */
 class AddInfoPeer extends BaseAddInfoPeer {
+/**
+ * method returns string with email where app should send added anketa
+ * @return string
+ */
+    public static function getAdressForEmail() {
+        $adress = self::retrieveByPK(2);
+        $to     = $adress->getContent();
+        return $to;
+    }
 
-} // AddInfoPeer
+}
+
+// AddInfoPeer

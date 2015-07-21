@@ -16,12 +16,13 @@
  * @package    lib.model
  */
 class AlbumPeer extends BaseAlbumPeer {
+
     /**
      * get an array of images id using by all albums
      * @return array list of image_id of all Albums
      */
     static function getAllAlbumCoverImage() {
-        $stm = Propel::getConnection()->prepare
+        $stm             = Propel::getConnection()->prepare
                 ('
                     SELECT
                         alb.cover_image
@@ -32,11 +33,12 @@ class AlbumPeer extends BaseAlbumPeer {
         $albumCoverImage = $stm->fetchAll(PDO::FETCH_COLUMN, 0);
         return $albumCoverImage;
     }
+
     /**
      * 
-     * @return array a list of main page images for slider (hash)
+     * @return array - list of main page images for slider (hash)
      */
-    static function getMainPageImages(){
+    static function getMainPageImages() {
         $stm = Propel::getConnection()->prepare('
             SELECT
                 image.hash
@@ -46,12 +48,40 @@ class AlbumPeer extends BaseAlbumPeer {
             WHERE
                 album_has_image.album_id = 1
         ');
-        
+
         $stm->execute();
         $list = $stm->fetchAll(PDO::FETCH_COLUMN);
         return $list;
     }
-    
+
+    /**
+     * 
+     * @return array - list of persons photos and information for page about us (hash)
+     */
+    static function getPersonsPhotosAndInfo() {
+        $stm = Propel::getConnection()->prepare('
+            SELECT
+                image.hash,
+                image.title
+            FROM
+                album_has_image
+            INNER JOIN image ON image.id = album_has_image.image_id
+            WHERE
+                album_has_image.album_id = 2
+        ');
+
+        $stm->execute();
+        $list = $stm->fetchAll(PDO::FETCH_ASSOC);
+
+        for ($i = 0; $i < count($list); $i++) {
+            $temp                 = explode('$', $list[$i]['title']);
+            $list[$i]['name']     = $temp[0];
+            $list[$i]['position'] = $temp[1];
+            unset($list[$i]['title']);
+        }
+        return $list;
+    }
+
 }
 
 // AlbumPeer

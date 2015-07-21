@@ -1,4 +1,4 @@
-
+<?php use_javascript('/js/headMenu/News.js') ?>
 <div class="main topic">
     <div class="one_news">
         <div class="breadcrumbs">

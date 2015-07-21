@@ -15,7 +15,6 @@ generator:
       actions: ~
       fields:  
             title: {label: 'Заголовок'}
-            description: {label: 'Описание'}
             content: {label: 'Ссылка на видео'}
             meta_description: {label: 'Мета описание'}
             meta_keywords: {label: 'Ключевые слова'}

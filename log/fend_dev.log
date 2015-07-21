@@ -7184,3 +7184,793 @@ Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} Factories 58.01 ms (1)
 Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} Action "video/index" 31.01 ms (1)
 Jun 26 11:33:21 symfony [info] {sfWebDebugLogger} View "Success" for "video/index" 33.88 ms (1)
 Jun 26 11:33:21 symfony [info] {sfWebResponse} Send content (40315 o)
+Jul 07 13:06:50 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:06:50 symfony [info] {sfFrontWebController} Action "anketa/confirm" does not exist
+Jul 07 13:06:50 symfony [err] {sfError404Exception} Action "anketa/confirm" does not exist.
+Jul 07 13:06:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Jul 07 13:06:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:06:50 symfony [info] {sfWebDebugLogger} Configuration 696.76 ms (5)
+Jul 07 13:06:50 symfony [info] {sfWebDebugLogger} Factories 373.78 ms (1)
+Jul 07 13:09:03 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:09:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:09:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:09:03 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:09:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:09:03 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:09:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:09:03 symfony [info] {sfWebDebugLogger} Configuration 116.10 ms (10)
+Jul 07 13:09:03 symfony [info] {sfWebDebugLogger} Factories 109.77 ms (1)
+Jul 07 13:09:03 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.37 ms (1)
+Jul 07 13:09:03 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 72.45 ms (1)
+Jul 07 13:09:03 symfony [info] {sfWebResponse} Send content (35209 o)
+Jul 07 13:09:17 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:09:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:09:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:09:18 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:09:18 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:09:18 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:18 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:09:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:09:18 symfony [info] {sfWebDebugLogger} Configuration 45.70 ms (9)
+Jul 07 13:09:18 symfony [info] {sfWebDebugLogger} Factories 126.00 ms (1)
+Jul 07 13:09:18 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.29 ms (1)
+Jul 07 13:09:18 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 48.68 ms (1)
+Jul 07 13:09:18 symfony [info] {sfWebResponse} Send content (35251 o)
+Jul 07 13:09:27 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:09:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:09:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:09:27 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:09:27 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:09:27 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:27 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:09:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:09:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:09:27 symfony [info] {sfWebDebugLogger} Configuration 29.63 ms (9)
+Jul 07 13:09:27 symfony [info] {sfWebDebugLogger} Factories 122.18 ms (1)
+Jul 07 13:09:27 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.32 ms (1)
+Jul 07 13:09:27 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 46.74 ms (1)
+Jul 07 13:09:27 symfony [info] {sfWebResponse} Send content (35250 o)
+Jul 07 13:11:24 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:11:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:11:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:11:24 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:11:24 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:11:24 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:24 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:11:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:11:24 symfony [info] {sfWebDebugLogger} Configuration 44.80 ms (9)
+Jul 07 13:11:24 symfony [info] {sfWebDebugLogger} Factories 111.12 ms (1)
+Jul 07 13:11:24 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.40 ms (1)
+Jul 07 13:11:24 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 65.14 ms (1)
+Jul 07 13:11:24 symfony [info] {sfWebResponse} Send content (35283 o)
+Jul 07 13:11:55 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:11:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:11:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:11:55 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:11:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:11:55 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:11:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:11:55 symfony [info] {sfWebDebugLogger} Configuration 22.95 ms (9)
+Jul 07 13:11:55 symfony [info] {sfWebDebugLogger} Factories 119.07 ms (1)
+Jul 07 13:11:55 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.22 ms (1)
+Jul 07 13:11:55 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 138.22 ms (1)
+Jul 07 13:11:55 symfony [info] {sfWebResponse} Send content (35245 o)
+Jul 07 13:11:58 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:11:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:11:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:11:58 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:11:58 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:11:58 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:58 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:11:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:11:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:11:58 symfony [info] {sfWebDebugLogger} Configuration 28.25 ms (9)
+Jul 07 13:11:58 symfony [info] {sfWebDebugLogger} Factories 119.67 ms (1)
+Jul 07 13:11:58 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 10.51 ms (1)
+Jul 07 13:11:58 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 39.47 ms (1)
+Jul 07 13:11:58 symfony [info] {sfWebResponse} Send content (35277 o)
+Jul 07 13:12:39 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:12:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:12:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:12:39 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:12:39 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:12:39 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:12:39 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:12:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:12:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:12:39 symfony [info] {sfWebDebugLogger} Configuration 64.93 ms (9)
+Jul 07 13:12:39 symfony [info] {sfWebDebugLogger} Factories 352.81 ms (1)
+Jul 07 13:12:39 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.30 ms (1)
+Jul 07 13:12:39 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 47.01 ms (1)
+Jul 07 13:12:40 symfony [info] {sfWebResponse} Send content (35295 o)
+Jul 07 13:13:23 symfony [info] {sfPatternRouting} Match route "anketa-confirm" (/anketa/confirm) for /anketa/confirm with parameters array (  'module' => 'anketa',  'action' => 'confirm',)
+Jul 07 13:13:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 07 13:13:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 07 13:13:23 symfony [info] {anketaActions} Call "anketaActions->executeConfirm()"
+Jul 07 13:13:23 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/confirmSuccess.php"
+Jul 07 13:13:23 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:13:23 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 07 13:13:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 07 13:13:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 07 13:13:23 symfony [info] {sfWebDebugLogger} Configuration 30.16 ms (9)
+Jul 07 13:13:23 symfony [info] {sfWebDebugLogger} Factories 103.18 ms (1)
+Jul 07 13:13:23 symfony [info] {sfWebDebugLogger} Action "anketa/confirm" 0.51 ms (1)
+Jul 07 13:13:23 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/confirm" 48.98 ms (1)
+Jul 07 13:13:23 symfony [info] {sfWebResponse} Send content (35296 o)
+Jul 08 12:47:03 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 12:47:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 12:47:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 12:47:03 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 12:47:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 12:47:03 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 12:47:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 12:47:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 12:47:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 12:47:03 symfony [info] {sfWebDebugLogger} Configuration 821.12 ms (9)
+Jul 08 12:47:03 symfony [info] {sfWebDebugLogger} Factories 430.21 ms (1)
+Jul 08 12:47:03 symfony [info] {sfWebDebugLogger} Action "anketa/index" 85.23 ms (1)
+Jul 08 12:47:03 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 85.01 ms (1)
+Jul 08 12:47:03 symfony [info] {sfWebResponse} Send content (44165 o)
+Jul 08 12:49:05 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 12:49:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 12:49:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 12:49:05 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 12:49:05 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 12:49:05 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 12:49:05 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 12:49:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 12:49:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 12:49:05 symfony [info] {sfWebDebugLogger} Configuration 51.12 ms (9)
+Jul 08 12:49:05 symfony [info] {sfWebDebugLogger} Factories 143.23 ms (1)
+Jul 08 12:49:05 symfony [info] {sfWebDebugLogger} Action "anketa/index" 88.38 ms (1)
+Jul 08 12:49:05 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 71.20 ms (1)
+Jul 08 12:49:05 symfony [info] {sfWebResponse} Send content (44157 o)
+Jul 08 12:49:57 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 12:49:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 12:49:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 12:49:57 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:11:55 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:11:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:11:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:11:55 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:11:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:11:55 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:11:55 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:11:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:11:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:11:55 symfony [info] {sfWebDebugLogger} Configuration 45.06 ms (9)
+Jul 08 13:11:55 symfony [info] {sfWebDebugLogger} Factories 120.11 ms (1)
+Jul 08 13:11:55 symfony [info] {sfWebDebugLogger} Action "anketa/index" 346.52 ms (1)
+Jul 08 13:11:55 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 220.43 ms (1)
+Jul 08 13:11:55 symfony [info] {sfWebResponse} Send content (47591 o)
+Jul 08 13:12:32 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:12:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:12:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:12:32 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:15:38 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:15:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:15:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:15:38 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:15:38 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:15:38 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:15:38 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:15:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:15:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:15:38 symfony [info] {sfWebDebugLogger} Configuration 26.16 ms (9)
+Jul 08 13:15:38 symfony [info] {sfWebDebugLogger} Factories 70.75 ms (1)
+Jul 08 13:15:38 symfony [info] {sfWebDebugLogger} Action "anketa/index" 336.09 ms (1)
+Jul 08 13:15:38 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 210.42 ms (1)
+Jul 08 13:15:39 symfony [info] {sfWebResponse} Send content (47525 o)
+Jul 08 13:16:02 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:16:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:16:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:16:02 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:16:03 symfony [err] {sfConfigurationException} The route "@image-resize?x=200&y=200&hash=9fc575d424fa251b8f80dfa1195c7d3e.bmp" does not exist.
+Jul 08 13:16:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 13:16:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:16:03 symfony [info] {sfWebDebugLogger} Configuration 30.41 ms (8)
+Jul 08 13:16:03 symfony [info] {sfWebDebugLogger} Factories 113.78 ms (1)
+Jul 08 13:16:03 symfony [info] {sfWebDebugLogger} Action "anketa/index" 734.09 ms (1)
+Jul 08 13:20:00 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:20:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:20:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:20:00 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:20:01 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:20:01 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:20:01 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:20:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:20:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:20:01 symfony [info] {sfWebDebugLogger} Configuration 38.33 ms (9)
+Jul 08 13:20:01 symfony [info] {sfWebDebugLogger} Factories 110.68 ms (1)
+Jul 08 13:20:01 symfony [info] {sfWebDebugLogger} Action "anketa/index" 364.62 ms (1)
+Jul 08 13:20:01 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 312.26 ms (1)
+Jul 08 13:20:01 symfony [info] {sfWebResponse} Send content (47528 o)
+Jul 08 13:20:22 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:20:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:20:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:20:22 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:20:22 symfony [err] {sfConfigurationException} The route "/uploads?x=200&y=200&hash=9fc575d424fa251b8f80dfa1195c7d3e.bmp" does not exist.
+Jul 08 13:20:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 13:20:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:20:22 symfony [info] {sfWebDebugLogger} Configuration 22.65 ms (8)
+Jul 08 13:20:22 symfony [info] {sfWebDebugLogger} Factories 108.15 ms (1)
+Jul 08 13:20:22 symfony [info] {sfWebDebugLogger} Action "anketa/index" 692.68 ms (1)
+Jul 08 13:26:06 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:26:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:26:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:26:06 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:26:06 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:26:06 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:26:06 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:26:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:26:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:26:06 symfony [info] {sfWebDebugLogger} Configuration 39.28 ms (9)
+Jul 08 13:26:06 symfony [info] {sfWebDebugLogger} Factories 85.10 ms (1)
+Jul 08 13:26:06 symfony [info] {sfWebDebugLogger} Action "anketa/index" 394.59 ms (1)
+Jul 08 13:26:06 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 170.06 ms (1)
+Jul 08 13:26:07 symfony [info] {sfWebResponse} Send content (47520 o)
+Jul 08 13:26:35 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:26:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:26:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:26:36 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:26:36 symfony [err] {sfConfigurationException} The route "@image-resize" does not exist.
+Jul 08 13:26:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 13:26:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:26:36 symfony [info] {sfWebDebugLogger} Configuration 29.26 ms (8)
+Jul 08 13:26:36 symfony [info] {sfWebDebugLogger} Factories 106.91 ms (1)
+Jul 08 13:26:36 symfony [info] {sfWebDebugLogger} Action "anketa/index" 740.43 ms (1)
+Jul 08 13:27:20 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:27:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:27:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:27:21 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:27:21 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:27:21 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:27:21 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:27:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:27:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:27:21 symfony [info] {sfWebDebugLogger} Configuration 70.74 ms (9)
+Jul 08 13:27:21 symfony [info] {sfWebDebugLogger} Factories 289.60 ms (1)
+Jul 08 13:27:21 symfony [info] {sfWebDebugLogger} Action "anketa/index" 285.01 ms (1)
+Jul 08 13:27:21 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 81.18 ms (1)
+Jul 08 13:27:21 symfony [info] {sfWebResponse} Send content (46562 o)
+Jul 08 13:27:41 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:27:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:27:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:27:41 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:27:41 symfony [err] {sfPropelLogger} SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'adad2sadasd' for key 'FIO_UNIQUE'
+Jul 08 13:27:41 symfony [err] {PropelException} Unable to execute INSERT statement. [wrapped: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'adad2sadasd' for key 'FIO_UNIQUE']
+Jul 08 13:27:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 08 13:27:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:27:42 symfony [info] {sfWebDebugLogger} Configuration 32.41 ms (8)
+Jul 08 13:27:42 symfony [info] {sfWebDebugLogger} Factories 108.98 ms (1)
+Jul 08 13:27:42 symfony [info] {sfWebDebugLogger} Action "anketa/index" 853.82 ms (1)
+Jul 08 13:28:17 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:28:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:28:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:28:17 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:28:18 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:28:18 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:28:18 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:28:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:28:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:28:18 symfony [info] {sfWebDebugLogger} Configuration 34.29 ms (9)
+Jul 08 13:28:18 symfony [info] {sfWebDebugLogger} Factories 112.66 ms (1)
+Jul 08 13:28:18 symfony [info] {sfWebDebugLogger} Action "anketa/index" 306.72 ms (1)
+Jul 08 13:28:18 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 126.09 ms (1)
+Jul 08 13:28:18 symfony [info] {sfWebResponse} Send content (47518 o)
+Jul 08 13:28:40 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:28:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:28:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:28:41 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:41:02 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:41:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:41:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:41:02 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:41:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:41:03 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:41:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:41:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:41:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:41:03 symfony [info] {sfWebDebugLogger} Configuration 76.13 ms (9)
+Jul 08 13:41:03 symfony [info] {sfWebDebugLogger} Factories 297.61 ms (1)
+Jul 08 13:41:03 symfony [info] {sfWebDebugLogger} Action "anketa/index" 326.85 ms (1)
+Jul 08 13:41:03 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 99.96 ms (1)
+Jul 08 13:41:03 symfony [info] {sfWebResponse} Send content (47520 o)
+Jul 08 13:41:50 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:41:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:41:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:41:50 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:41:50 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:41:50 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:41:50 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:41:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:41:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:41:50 symfony [info] {sfWebDebugLogger} Configuration 36.87 ms (9)
+Jul 08 13:41:50 symfony [info] {sfWebDebugLogger} Factories 108.77 ms (1)
+Jul 08 13:41:50 symfony [info] {sfWebDebugLogger} Action "anketa/index" 318.97 ms (1)
+Jul 08 13:41:50 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 125.28 ms (1)
+Jul 08 13:41:51 symfony [info] {sfWebResponse} Send content (46626 o)
+Jul 08 13:42:21 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:42:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:42:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:42:21 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:44:16 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:44:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:44:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:44:16 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:44:16 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:44:16 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:44:16 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:44:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:44:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:44:16 symfony [info] {sfWebDebugLogger} Configuration 33.33 ms (9)
+Jul 08 13:44:16 symfony [info] {sfWebDebugLogger} Factories 109.75 ms (1)
+Jul 08 13:44:16 symfony [info] {sfWebDebugLogger} Action "anketa/index" 338.28 ms (1)
+Jul 08 13:44:16 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 61.33 ms (1)
+Jul 08 13:44:17 symfony [info] {sfWebResponse} Send content (47546 o)
+Jul 08 13:44:50 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:44:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:44:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:44:50 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:44:51 symfony [info] {sfMailerMessageLoggerPlugin} Sending email "" to "s.arm.kir@gmail.com"
+Jul 08 13:44:51 symfony [info] {sfFrontWebController} Redirect to "http://armenian.loc/anketa/confirm"
+Jul 08 13:44:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jul 08 13:44:51 symfony [info] {sfWebResponse} Send header "Location: http://armenian.loc/anketa/confirm"
+Jul 08 13:44:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:44:51 symfony [info] {sfWebDebugLogger} Configuration 34.09 ms (8)
+Jul 08 13:44:51 symfony [info] {sfWebDebugLogger} Factories 114.69 ms (1)
+Jul 08 13:44:51 symfony [info] {sfWebDebugLogger} Action "anketa/index" 879.87 ms (1)
+Jul 08 13:44:51 symfony [info] {sfWebResponse} Send content (105 o)
+Jul 08 13:48:12 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:48:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:48:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:48:12 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:48:13 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/anketa/templates/indexSuccess.php"
+Jul 08 13:48:13 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:48:13 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 08 13:48:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 08 13:48:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:48:13 symfony [info] {sfWebDebugLogger} Configuration 209.96 ms (10)
+Jul 08 13:48:13 symfony [info] {sfWebDebugLogger} Factories 246.35 ms (1)
+Jul 08 13:48:13 symfony [info] {sfWebDebugLogger} Action "anketa/index" 321.77 ms (1)
+Jul 08 13:48:13 symfony [info] {sfWebDebugLogger} View "Success" for "anketa/index" 218.09 ms (1)
+Jul 08 13:48:13 symfony [info] {sfWebResponse} Send content (47547 o)
+Jul 08 13:48:50 symfony [info] {sfPatternRouting} Match route "anketa" (/anketa) for /anketa with parameters array (  'module' => 'anketa',  'action' => 'index',)
+Jul 08 13:48:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 08 13:48:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 08 13:48:50 symfony [info] {anketaActions} Call "anketaActions->executeIndex()"
+Jul 08 13:48:51 symfony [info] {sfMailerMessageLoggerPlugin} Sending email "" to "s.arm.kir@gmail.com"
+Jul 08 13:48:51 symfony [info] {sfFrontWebController} Redirect to "http://armenian.loc/anketa/confirm"
+Jul 08 13:48:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Jul 08 13:48:51 symfony [info] {sfWebResponse} Send header "Location: http://armenian.loc/anketa/confirm"
+Jul 08 13:48:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 08 13:48:51 symfony [info] {sfWebDebugLogger} Configuration 22.49 ms (8)
+Jul 08 13:48:51 symfony [info] {sfWebDebugLogger} Factories 118.95 ms (1)
+Jul 08 13:48:51 symfony [info] {sfWebDebugLogger} Action "anketa/index" 936.05 ms (1)
+Jul 08 13:48:51 symfony [info] {sfWebResponse} Send content (105 o)
+Jul 19 23:03:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 19 23:03:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:03:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:03:46 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 19 23:03:46 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/indexSuccess.php"
+Jul 19 23:03:46 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:03:46 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:03:46 symfony [info] {main} Call "default->executeMenu()"
+Jul 19 23:03:46 symfony [err] {sfException} Call to undefined method sfWebResponse::getRouting.
+Jul 19 23:03:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 19 23:03:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 19 23:03:46 symfony [info] {sfWebDebugLogger} Configuration 2033.86 ms (11)
+Jul 19 23:03:46 symfony [info] {sfWebDebugLogger} Factories 784.89 ms (1)
+Jul 19 23:03:46 symfony [info] {sfWebDebugLogger} Action "default/index" 60.34 ms (1)
+Jul 19 23:03:46 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 203.20 ms (1)
+Jul 19 23:03:46 symfony [info] {sfWebDebugLogger} Component "default/menu" 95.41 ms (1)
+Jul 19 23:04:20 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jul 19 23:04:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:04:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:04:20 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jul 19 23:04:20 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/indexSuccess.php"
+Jul 19 23:04:20 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:04:20 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:04:20 symfony [info] {main} Call "default->executeMenu()"
+Jul 19 23:04:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /news with parameters array (  'module' => 'news',  'action' => 'index',)
+Jul 19 23:04:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:04:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:04:39 symfony [info] {newsActions} Call "newsActions->executeIndex()"
+Jul 19 23:04:39 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/indexSuccess.php"
+Jul 19 23:04:40 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:04:40 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:04:40 symfony [info] {main} Call "default->executeMenu()"
+Jul 19 23:05:30 symfony [info] {sfPatternRouting} Match route "news-index" (/news/:page) for /news/1 with parameters array (  'module' => 'news',  'action' => 'index',  'page' => '1',)
+Jul 19 23:05:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:05:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:05:30 symfony [info] {newsActions} Call "newsActions->executeIndex()"
+Jul 19 23:05:30 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/indexSuccess.php"
+Jul 19 23:05:31 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:05:31 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:05:31 symfony [info] {main} Call "default->executeMenu()"
+Jul 19 23:05:50 symfony [info] {sfPatternRouting} Match route "news-show" (/news/show/:id) for /news/show/12 with parameters array (  'module' => 'news',  'action' => 'show',  'id' => '12',)
+Jul 19 23:05:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:05:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:05:51 symfony [info] {newsActions} Call "newsActions->executeShow()"
+Jul 19 23:05:51 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/showSuccess.php"
+Jul 19 23:05:51 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:05:51 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:05:51 symfony [info] {main} Call "default->executeMenu()"
+Jul 19 23:08:36 symfony [info] {sfPatternRouting} Match route "news-show" (/news/show/:id) for /news/show/12 with parameters array (  'module' => 'news',  'action' => 'show',  'id' => '12',)
+Jul 19 23:08:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 19 23:08:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 19 23:08:37 symfony [info] {newsActions} Call "newsActions->executeShow()"
+Jul 19 23:08:37 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/showSuccess.php"
+Jul 19 23:08:37 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:08:37 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 19 23:08:37 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 19 23:08:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 19 23:08:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 19 23:08:37 symfony [info] {sfWebDebugLogger} Configuration 17.98 ms (9)
+Jul 19 23:08:37 symfony [info] {sfWebDebugLogger} Factories 73.96 ms (1)
+Jul 19 23:08:37 symfony [info] {sfWebDebugLogger} Action "news/show" 49.85 ms (1)
+Jul 19 23:08:37 symfony [info] {sfWebDebugLogger} View "Success" for "news/show" 130.47 ms (1)
+Jul 19 23:08:37 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 3.36 ms (1)
+Jul 19 23:08:37 symfony [info] {sfWebResponse} Send content (60511 o)
+Jul 20 11:31:49 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:31:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:31:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:31:49 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:31:49 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:31:49 symfony [err] {sfWebDebugLogger}  Error at E:\loc_site\armenian.loc\sources\lib\vendor\symfony\lib\escaper\sfOutputEscaperObjectDecorator.class.php on line 98 (Object of class AddInfo could not be converted to string)
+Jul 20 11:33:06 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:33:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:33:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:33:06 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:33:06 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:33:06 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:33:06 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:33:06 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:33:06 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:33:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:33:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} Configuration 15.19 ms (11)
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} Factories 62.53 ms (1)
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} Action "default/about" 41.96 ms (1)
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 36.94 ms (1)
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.05 ms (1)
+Jul 20 11:33:06 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 2.63 ms (1)
+Jul 20 11:33:06 symfony [info] {sfWebResponse} Send content (41812 o)
+Jul 20 11:34:50 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:34:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:34:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:34:50 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:34:51 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:34:51 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:34:51 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:34:51 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:34:51 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:34:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:34:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} Configuration 32.04 ms (11)
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} Factories 95.55 ms (1)
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} Action "default/about" 44.02 ms (1)
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 61.11 ms (1)
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.07 ms (1)
+Jul 20 11:34:51 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 4.23 ms (1)
+Jul 20 11:34:51 symfony [info] {sfWebResponse} Send content (41284 o)
+Jul 20 11:36:44 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:36:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:36:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:36:44 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:36:44 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:36:44 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:36:44 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:36:44 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:36:44 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:36:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:36:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} Configuration 24.20 ms (11)
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} Factories 89.21 ms (1)
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} Action "default/about" 42.71 ms (1)
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 61.57 ms (1)
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 20 11:36:44 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 5.29 ms (1)
+Jul 20 11:36:44 symfony [info] {sfWebResponse} Send content (41341 o)
+Jul 20 11:38:03 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:38:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:38:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:38:03 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:38:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:38:03 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:38:03 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:38:03 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:38:03 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:38:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:38:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} Configuration 16.69 ms (11)
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} Factories 66.34 ms (1)
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} Action "default/about" 50.38 ms (1)
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 34.97 ms (1)
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.05 ms (1)
+Jul 20 11:38:03 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 2.68 ms (1)
+Jul 20 11:38:03 symfony [info] {sfWebResponse} Send content (41237 o)
+Jul 20 11:39:25 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:39:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:39:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:39:25 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:39:25 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:39:25 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:39:25 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:39:25 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:39:25 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:39:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:39:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} Configuration 25.05 ms (11)
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} Factories 102.43 ms (1)
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} Action "default/about" 55.91 ms (1)
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 60.18 ms (1)
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.07 ms (1)
+Jul 20 11:39:25 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 4.29 ms (1)
+Jul 20 11:39:25 symfony [info] {sfWebResponse} Send content (41074 o)
+Jul 20 11:40:59 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:40:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:40:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:40:59 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:40:59 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:40:59 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:40:59 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:40:59 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:40:59 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:40:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:40:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} Configuration 24.18 ms (11)
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} Factories 66.97 ms (1)
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} Action "default/about" 42.69 ms (1)
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 35.03 ms (1)
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.05 ms (1)
+Jul 20 11:40:59 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 3.44 ms (1)
+Jul 20 11:40:59 symfony [info] {sfWebResponse} Send content (41104 o)
+Jul 20 11:41:48 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:41:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:41:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:41:49 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:41:49 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:41:49 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:41:49 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:41:49 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:41:49 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:41:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:41:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} Configuration 30.72 ms (11)
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} Factories 96.82 ms (1)
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} Action "default/about" 47.34 ms (1)
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 62.79 ms (1)
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 20 11:41:49 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 5.47 ms (1)
+Jul 20 11:41:49 symfony [info] {sfWebResponse} Send content (41136 o)
+Jul 20 11:42:28 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:42:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:42:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:42:29 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:42:29 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:42:29 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:42:29 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:42:29 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:42:29 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:42:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:42:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} Configuration 15.80 ms (11)
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} Factories 68.85 ms (1)
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} Action "default/about" 28.33 ms (1)
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 37.33 ms (1)
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.05 ms (1)
+Jul 20 11:42:29 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 2.90 ms (1)
+Jul 20 11:42:29 symfony [info] {sfWebResponse} Send content (41220 o)
+Jul 20 11:42:34 symfony [info] {sfPatternRouting} Match route "about" (/about) for /about with parameters array (  'module' => 'default',  'action' => 'about',)
+Jul 20 11:42:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:42:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:42:34 symfony [info] {defaultActions} Call "defaultActions->executeAbout()"
+Jul 20 11:42:34 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/aboutSuccess.php"
+Jul 20 11:42:34 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:42:34 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:42:34 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:42:34 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:42:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:42:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} Configuration 27.01 ms (11)
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} Factories 50.39 ms (1)
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} Action "default/about" 29.18 ms (1)
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} View "Success" for "default/about" 32.27 ms (1)
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.05 ms (1)
+Jul 20 11:42:34 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 2.94 ms (1)
+Jul 20 11:42:34 symfony [info] {sfWebResponse} Send content (41221 o)
+Jul 20 11:49:59 symfony [info] {sfPatternRouting} Match route "fotoalbum-index" (/fotoalbum/:page) for /fotoalbum/2 with parameters array (  'module' => 'fotoalbum',  'action' => 'index',  'page' => '2',)
+Jul 20 11:49:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:49:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:49:59 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeIndex()"
+Jul 20 11:49:59 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/indexSuccess.php"
+Jul 20 11:50:05 symfony [info] {sfPatternRouting} Match route "fotoalbum-index" (/fotoalbum/:page) for /fotoalbum/2 with parameters array (  'module' => 'fotoalbum',  'action' => 'index',  'page' => '2',)
+Jul 20 11:50:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:50:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:50:05 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeIndex()"
+Jul 20 11:50:05 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/indexSuccess.php"
+Jul 20 11:50:13 symfony [info] {sfPatternRouting} Match route "fotoalbum-index" (/fotoalbum/:page) for /fotoalbum/1 with parameters array (  'module' => 'fotoalbum',  'action' => 'index',  'page' => '1',)
+Jul 20 11:50:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:50:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:50:13 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeIndex()"
+Jul 20 11:50:13 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/indexSuccess.php"
+Jul 20 11:50:13 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:50:13 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:50:13 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:50:13 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:50:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:50:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} Configuration 43.79 ms (11)
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} Factories 101.60 ms (1)
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} Action "fotoalbum/index" 45.72 ms (1)
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/index" 98.22 ms (1)
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.07 ms (1)
+Jul 20 11:50:13 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 4.37 ms (1)
+Jul 20 11:50:13 symfony [info] {sfWebResponse} Send content (41361 o)
+Jul 20 11:50:56 symfony [info] {sfPatternRouting} Match route "fotoalbum-index" (/fotoalbum/:page) for /fotoalbum/1 with parameters array (  'module' => 'fotoalbum',  'action' => 'index',  'page' => '1',)
+Jul 20 11:50:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 20 11:50:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 20 11:50:56 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeIndex()"
+Jul 20 11:50:56 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/indexSuccess.php"
+Jul 20 11:50:56 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:50:56 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 20 11:50:56 symfony [info] {main} Call "default->executeMenu()"
+Jul 20 11:50:56 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 20 11:50:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 20 11:50:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} Configuration 41.76 ms (11)
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} Factories 106.54 ms (1)
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} Action "fotoalbum/index" 45.24 ms (1)
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/index" 100.73 ms (1)
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 20 11:50:56 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 5.08 ms (1)
+Jul 20 11:50:57 symfony [info] {sfWebResponse} Send content (41393 o)
+Jul 22 00:28:30 symfony [info] {sfPatternRouting} Match route "news-show" (/news/show/:id) for /news/show/15 with parameters array (  'module' => 'news',  'action' => 'show',  'id' => '15',)
+Jul 22 00:28:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:28:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:28:30 symfony [info] {newsActions} Call "newsActions->executeShow()"
+Jul 22 00:28:30 symfony [err] {sfException} Call to undefined method newsActions::setMetasForCurrentObject.
+Jul 22 00:28:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jul 22 00:28:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:28:31 symfony [info] {sfWebDebugLogger} Configuration 612.84 ms (8)
+Jul 22 00:28:31 symfony [info] {sfWebDebugLogger} Factories 496.38 ms (1)
+Jul 22 00:28:31 symfony [info] {sfWebDebugLogger} Action "news/show" 350.56 ms (1)
+Jul 22 00:31:16 symfony [info] {sfPatternRouting} Match route "news-show" (/news/show/:id) for /news/show/15 with parameters array (  'module' => 'news',  'action' => 'show',  'id' => '15',)
+Jul 22 00:31:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:31:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:31:16 symfony [info] {newsActions} Call "newsActions->executeShow()"
+Jul 22 00:31:16 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/showSuccess.php"
+Jul 22 00:31:16 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:31:16 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:31:16 symfony [info] {main} Call "default->executeMenu()"
+Jul 22 00:31:16 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 22 00:31:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 22 00:31:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} Configuration 88.28 ms (12)
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} Factories 90.90 ms (1)
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} Action "news/show" 144.26 ms (1)
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} View "Success" for "news/show" 139.94 ms (1)
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 22 00:31:16 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 3.41 ms (1)
+Jul 22 00:31:16 symfony [info] {sfWebResponse} Send content (39316 o)
+Jul 22 00:31:27 symfony [info] {sfPatternRouting} Match route "news-show" (/news/show/:id) for /news/show/15 with parameters array (  'module' => 'news',  'action' => 'show',  'id' => '15',)
+Jul 22 00:31:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:31:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:31:27 symfony [info] {newsActions} Call "newsActions->executeShow()"
+Jul 22 00:31:27 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/news/templates/showSuccess.php"
+Jul 22 00:31:27 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:31:27 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:31:27 symfony [info] {main} Call "default->executeMenu()"
+Jul 22 00:31:27 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 22 00:31:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 22 00:31:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} Configuration 40.54 ms (11)
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} Factories 86.56 ms (1)
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} Action "news/show" 38.74 ms (1)
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} View "Success" for "news/show" 79.87 ms (1)
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 22 00:31:27 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 4.56 ms (1)
+Jul 22 00:31:27 symfony [info] {sfWebResponse} Send content (39281 o)
+Jul 22 00:36:26 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/14 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '14',)
+Jul 22 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:36:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:36:26 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:36:26 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:36:26 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:36:32 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/14 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '14',)
+Jul 22 00:36:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:36:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:36:32 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:36:32 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:36:32 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:36:59 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/14 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '14',)
+Jul 22 00:36:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:36:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:36:59 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:36:59 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:36:59 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:38:56 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:38:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:38:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:38:57 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:38:57 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:38:57 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:39:02 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:39:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:39:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:39:02 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:39:02 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:39:02 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:40:15 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:40:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:40:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:40:15 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:40:15 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:40:15 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:40:17 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:40:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:40:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:40:17 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:40:17 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:40:17 symfony [notice] {sfWebDebugLogger}  Notice at E:\loc_site\armenian.loc\sources\apps\fend\modules\fotoalbum\templates\showSuccess.php on line 11 (Undefined variable: curAlbum)
+Jul 22 00:40:54 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:40:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:40:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:40:54 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:40:54 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:40:54 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:40:54 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:40:54 symfony [info] {main} Call "default->executeMenu()"
+Jul 22 00:40:54 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 22 00:40:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 22 00:40:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} Configuration 79.81 ms (12)
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} Factories 100.69 ms (1)
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} Action "fotoalbum/show" 42.99 ms (1)
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/show" 105.60 ms (1)
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.08 ms (1)
+Jul 22 00:40:54 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 3.33 ms (1)
+Jul 22 00:40:54 symfony [info] {sfWebResponse} Send content (39722 o)
+Jul 22 00:44:38 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:44:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:44:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:44:39 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:44:39 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:44:39 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:44:39 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:44:39 symfony [info] {main} Call "default->executeMenu()"
+Jul 22 00:44:39 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 22 00:44:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 22 00:44:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} Configuration 213.84 ms (12)
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} Factories 211.96 ms (1)
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} Action "fotoalbum/show" 100.73 ms (1)
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/show" 299.65 ms (1)
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.16 ms (1)
+Jul 22 00:44:39 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 6.99 ms (1)
+Jul 22 00:44:39 symfony [info] {sfWebResponse} Send content (39725 o)
+Jul 22 00:44:52 symfony [info] {sfPatternRouting} Match route "fotoalbum-show" (/fotoalbum/show/:id) for /fotoalbum/show/7 with parameters array (  'module' => 'fotoalbum',  'action' => 'show',  'id' => '7',)
+Jul 22 00:44:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jul 22 00:44:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jul 22 00:44:52 symfony [info] {fotoalbumActions} Call "fotoalbumActions->executeShow()"
+Jul 22 00:44:52 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/fotoalbum/templates/showSuccess.php"
+Jul 22 00:44:52 symfony [info] {sfPHPView} Decorate content with "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:44:52 symfony [info] {sfPHPView} Render "E:\loc_site\armenian.loc\sources\apps\fend\templates/layout.php"
+Jul 22 00:44:52 symfony [info] {main} Call "default->executeMenu()"
+Jul 22 00:44:52 symfony [info] {sfPartialView} Render "E:\loc_site\armenian.loc\sources\apps\fend\modules/default/templates/_menu.php"
+Jul 22 00:44:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jul 22 00:44:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} Configuration 653.96 ms (11)
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} Factories 311.27 ms (1)
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} Action "fotoalbum/show" 46.27 ms (1)
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} View "Success" for "fotoalbum/show" 84.26 ms (1)
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} Component "default/menu" 0.07 ms (1)
+Jul 22 00:44:52 symfony [info] {sfWebDebugLogger} Partial "default/_menu" 3.22 ms (1)
+Jul 22 00:44:52 symfony [info] {sfWebResponse} Send content (39722 o)

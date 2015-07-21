@@ -25,23 +25,27 @@ class defaultActions extends sfActions {
         $pager->setPage($this->getRequestParameter('page', 1));
         $pager->init();
         $this->pager = $pager;
-        
+
         //geting images for slider
         $this->listOfImages = AlbumPeer::getMainPageImages();
-        
+
         $criteriaVideo = new Criteria;
         $criteriaVideo->addDescendingOrderByColumn(VideoPeer::CREATED_AT);
-        $this->Video = VideoPeer::doSelect($criteriaVideo);
+        $this->Video   = VideoPeer::doSelect($criteriaVideo);
+        
+        //retriewing slogan
+        $this->slogan    = AddInfoPeer::retrieveByPK(1);
     }
 
-    public function executeAbout(sfWebRequest $request) {
+    public function executeAbout() {
 
-        $this->aboutUs = AddInfoPeer::retrieveByPK('1');
+        $this->persons = AlbumPeer::getPersonsPhotosAndInfo();
+        $this->slogan    = AddInfoPeer::retrieveByPK(1);
+        $this->structure = AddInfoPeer::retrieveByPK(3);
     }
-    
+
     public function executeError404() {
-
-       
+        
     }
 
 }

@@ -1,3 +1,4 @@
+<?php use_javascript('/js/headMenu/Gal.js') ?>
 <div class="main">			
     <h2>Фотогалерея</h2>
     <div class="photo_holder">

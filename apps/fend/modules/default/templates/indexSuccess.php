@@ -1,38 +1,24 @@
 <div class="gallery" id="gallery">
     <div class="gallery_wrap">
         <ul class="list">
-            <li>
-                <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $listOfImages[0]) ?>" alt="" width="1020" height="500"/></a>
-            </li>
-            <li>
-                <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $listOfImages[1]) ?>" alt="" width="1020" height="500"/></a>
-            </li>
-            <li>
-                <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $listOfImages[2]) ?>" alt="" width="1020" height="500"/></a>
-            </li>
-            <li>
-                <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $listOfImages[3]) ?>" alt="" width="1020" height="500"/></a>
-            </li>
-            <li>
-                <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $listOfImages[4]) ?>" alt="" width="1020" height="500"/></a>
-            </li>
+            <?php foreach ($listOfImages as $item): ?>
+                <li>
+                    <a href=""><img src="<?php echo url_for('@image-resize?x=1020&y=500&hash=' . $item) ?>" alt="" width="1020" height="500"/></a>
+                </li>
+            <?php endforeach ?>
         </ul>
     </div>
     <a class="prev" href="">&#60;</a>
     <a class="next" href="">&#62;</a>
     <ul class="switcher">
         <li class="active"><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
+        <?php for ($i = 1; $i < count($listOfImages); $i++): ?>
+            <li><a href="#">$++i</a></li>
+        <?php endfor ?>
     </ul>
 </div>
 <div class="about_us">
-    <p>Союз армянской молодежи Украины – организация объединяющая представителей 
-        армянской молодежи Украины, сочетающих достижение профессиональных успехов
-        с культурным и духовным развитием, поддержанием интеллектуальных традиций
-        армянского народа и укреплением связей с Арменией и Диаспорой.</p>
+    <?php echo $slogan->getRawValue()->getContent() ?>
 
     <div class="questionary">
         <span>Хочешь вступить в организацию?</span>
@@ -40,7 +26,7 @@
     </div>
 </div>
 <div class="point">
-    <h2>Основные цели МО</h2>
+    <h2>Основные цели Союза армян Украины</h2>
     <div class="point_holder">
         <div class="aim">
             <img src="/img/icon01.png" alt="" width="100" height="100"/>
